@@ -1,11 +1,19 @@
 @font-face {
-    font-family: 'Inter-Bold';
-    src: url(../../assets/font/Inter-Bold.ttf);
+    font-family: 'DMSans-Bold';
+    src: url(../../assets/font/DMSans-Bold.otf);
 }
 
 @font-face {
-    font-family: 'Inter-Regular';
-    src: url(../../assets/font/Inter-Regular.ttf);
+    font-family: 'DMSans-Regular';
+    src: url(../../assets/font/DMSans-Regular.otf);
+}
+@font-face {
+    font-family: 'NotoSansCJKtc-Bold';
+    src: url(../../assets/font/NotoSansCJKtc-Bold.otf);
+}
+@font-face {
+    font-family: 'NotoSansCJKtc-Regular';
+    src: url(../../assets/font/NotoSansCJKtc-Regular.otf);
 }
 
 .top {
@@ -93,7 +101,7 @@
 }
 
 .mdle p, .mdle h1 {
-    font-family: 'Inter-Regular', sans-serif;
+    font-family: 'NotoSansCJKtc-Regular', sans-serif;
 }
 
 .degine {
@@ -193,7 +201,7 @@ tfoot tr {
 }
 
 div {
-    font-family: 'Inter-Regular', sans-serif;
+    font-family: 'NotoSansCJKtc-Regular', sans-serif;
 }
 
 .nav-item {
@@ -222,7 +230,13 @@ div {
 .ls-title {
     color: #ed6942;
     font-size: 65px;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'DMSans-Bold', sans-serif;
+}
+.footercontent{
+    font-size: 11px;
+    font-family: 'NotoSansCJKtc-Regular', sans-serif;
+    color: #ffffff;
 }
 
 .ls-paragraph {
@@ -354,6 +368,7 @@ td div {
     font-size: 7rem;
     color: #ed6942;
     text-shadow: -1px 13px 20px rgb(0 0 0 / 59%);
+    font-family: 'DMSans-Bold', sans-serif;
 }
 
 
@@ -436,6 +451,10 @@ td div {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .search{
+        margin-bottom: 17px;
+        margin-left: 18px;
+    }
 
     .degine {
         background-color: #ffffff;
@@ -456,6 +475,15 @@ td div {
     .head5 {
         font-size: 2rem;
     }
+   .ls-title {
+       color: #ed6942;
+       font-size: 48px;
+       font-weight: 700;
+       font-family: 'DMSans-Bold', sans-serif;
+   }
+   .buutton{
+       margin-bottom: 10px;
+   }
 
     .pazel {
         background-color: #e8e8e8;
@@ -501,11 +529,12 @@ td div {
     }
 
     .banerpostb {
-        width: 50%;
+        width: 25%;
+        margin-bottom: -24px;
     }
 
     .banerpostb button {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .carousel-caption {
@@ -518,7 +547,9 @@ td div {
     }
 
     .head2 {
-        font-size: 1.5rem;
+        font-size: 29px;
+        height: 8px;
+        margin-bottom: 48px;
     }
 
     .head3 {
