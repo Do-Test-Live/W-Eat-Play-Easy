@@ -43,7 +43,8 @@
 }
 
 .menu .nav-link {
-    padding: 1rem;
+    padding: 0.5rem;
+    padding-left: 111px;
 }
 
 .head {
