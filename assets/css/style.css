@@ -233,6 +233,8 @@ div {
     font-size: 65px;
     font-weight: 700;
     font-family: 'DMSans-Bold', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
 }
 .footercontent{
     font-size: 11px;
@@ -366,10 +368,11 @@ td div {
 }
 
 .head2 {
-    font-size: 7rem;
+    font-size: 8rem;
     color: #ed6942;
-    text-shadow: -1px 13px 20px rgb(0 0 0 / 59%);
     font-family: 'DMSans-Bold', sans-serif;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
 }
 
 
@@ -481,6 +484,8 @@ td div {
        font-size: 48px;
        font-weight: 700;
        font-family: 'DMSans-Bold', sans-serif;
+       -webkit-text-stroke-width: 1.5px;
+       -webkit-text-stroke-color: white;
    }
    .buutton{
        margin-bottom: 10px;
@@ -551,6 +556,8 @@ td div {
         font-size: 29px;
         height: 8px;
         margin-bottom: 48px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
     }
 
     .head3 {
