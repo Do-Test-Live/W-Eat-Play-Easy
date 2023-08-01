@@ -215,8 +215,10 @@ div {
 }
 
 .ls-logo {
-    width: 188px;
-    height: 36px;
+    width: 236px;
+    height: 57px;
+    margin-left: -55px;
+    margin-top: -10px;
 }
 
 .ls-mobile-logo{
@@ -458,6 +460,12 @@ td div {
     .search{
         margin-bottom: 17px;
         margin-left: 18px;
+    }
+    .ls-logo {
+        width: 211px;
+        height: 48px;
+        margin-left: -23px;
+        margin-top: -15px;
     }
 
     .degine {
