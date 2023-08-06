@@ -1,0 +1,17 @@
+ErrorDocument 404 https://wayshk.ngt.hk/W-Wayshk/404.php
+
+RewriteEngine on
+
+RewriteRule ^Login index.php [NE,L]
+
+RewriteRule ^Logout logout.php [NE,L]
+
+RewriteRule ^Backend backend.php [NE,L]
+
+RewriteRule ^Admin-Profile profile.php [NE,L]
+
+RewriteRule ^Dashboard dashboard.php [NE,L]
+
+RewriteRule ^Category-Add category_add.php [NE,L]
+
+RewriteRule ^Category-View category_view.php [NE,L]
