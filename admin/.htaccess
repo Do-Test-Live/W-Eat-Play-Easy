@@ -15,3 +15,7 @@ RewriteRule ^Dashboard dashboard.php [NE,L]
 RewriteRule ^Category-Add category_add.php [NE,L]
 
 RewriteRule ^Category-View category_view.php [NE,L]
+
+RewriteRule ^Blog-Add blog_add.php [NE,L]
+
+RewriteRule ^Blog-View blog_view.php [NE,L]

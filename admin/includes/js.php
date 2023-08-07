@@ -9,8 +9,8 @@
 <!-- Datatable -->
 <script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
 <script src="js/plugins-init/datatables.init.js"></script>
-<script src="vendor/sweetalert2/dist/sweetalert2.min.js"></script>
-<script src="js/plugins-init/sweetalert.init.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script>
     (function ($) {
         var table = $('#example5').DataTable({

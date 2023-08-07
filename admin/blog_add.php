@@ -12,24 +12,6 @@ window.location.href = 'Login';
     $id = $_SESSION['admin_id'];
     $admin_data = $db_handle->runQuery("select * from admin where id = '$id'");
 }
-if(isset($_POST['update_password'])){
-    $pass = $db_handle->checkValue($_POST['password']);
-    $c_pass = $db_handle->checkValue($_POST['confirm_password']);
-    if($pass == $c_pass){
-        $update_pass = $db_handle->insertQuery("UPDATE `admin` SET `admin_pass`='$pass' WHERE id = '$id'");
-        if($update_pass){
-            echo "<script>
-document.cookie = 'alert = 3;';
-window.location.href = 'Dashboard';
-</script>";
-        }
-    } else {
-        echo "<script>
-document.cookie = 'alert = 5;';
-window.location.href = 'Admin-Profile';
-</script>";
-    }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,11 +19,9 @@ window.location.href = 'Admin-Profile';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Play Eat Easy - Profile</title>
+    <title>Play Eat Easy</title>
     <!-- Favicon icon -->
     <?php include('includes/css.php'); ?>
-
-
 </head>
 <body>
 
@@ -89,32 +69,24 @@ window.location.href = 'Admin-Profile';
         <!-- row -->
         <div class="container-fluid">
             <div class="form-head mb-4">
-                <h2 class="text-black font-w600 mb-0">Profile</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 col-lg-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="card-title">Update Password</h4>
-                        </div>
-                        <div class="card-body">
-                            <div class="basic-form">
-                                <form action="#" method="post">
-                                    <div class="form-group">
-                                        <input type="password" class="form-control input-rounded" placeholder="new password" name="password">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control input-rounded" placeholder="confirm new password" name="confirm_password">
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" name="update_password" class="btn btn-primary">Update Password</button>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
+                <h2 class="text-black font-w600 mb-0">Add Blog</h2>
+                <form action="Backend" method="post" class="mt-3" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label>Blog Title</label>
+                        <input type="text" class="form-control input-default" name="blog_title" placeholder="Blog Title" required>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label>Blog Description</label>
+                        <textarea class="form-control" rows="4" id="comment" spellcheck="true" name="blog_desc" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Blog Image</label>
+                        <input type="file" class="form-control input-default" name="blog_file" accept="image/*" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="add_blog" class="btn btn-primary">Add</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -150,7 +122,9 @@ window.location.href = 'Admin-Profile';
 <!-- Required vendors -->
 <?php include('includes/js.php');?>
 
-
+<script>
+    CKEDITOR.replace('blog_desc');
+</script>
 </body>
 
 </html>

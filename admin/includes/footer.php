@@ -1,5 +1,5 @@
 <div class="footer">
     <div class="copyright">
-        <p>Copyright © Eat Play Easy</p>
+        <p>Copyright © Play Eat Easy</p>
     </div>
 </div>
