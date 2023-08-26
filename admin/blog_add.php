@@ -76,6 +76,22 @@ window.location.href = 'Login';
                         <input type="text" class="form-control input-default" name="blog_title" placeholder="Blog Title" required>
                     </div>
                     <div class="form-group">
+                        <label>Blog Category</label>
+                        <select class="form-control" name="blog_cat" required>
+                            <option>Please Select Category</option>
+                            <?php
+                            $fetch_cat = $db_handle->runQuery("select * from category order by id desc");
+                            $fetch_cat_no = $db_handle->numRows("select * from category order by id desc");
+                            for ($i = 0; $i < $fetch_cat_no; $i++){
+                                ?>
+                                <option value="<?php echo $fetch_cat [$i]['id'];?>"><?php echo $fetch_cat [$i]['category_name_cn'];?></option>
+                                <?php
+                            }
+                            ?>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <label>Blog Description</label>
                         <textarea class="form-control" rows="4" id="comment" spellcheck="true" name="blog_desc" required></textarea>
                     </div>

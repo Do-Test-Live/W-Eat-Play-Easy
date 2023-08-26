@@ -53,6 +53,7 @@ if (isset($_GET['catId'])) {
 if (isset($_POST['add_blog'])) {
     $blog_title = $db_handle->checkValue($_POST['blog_title']);
     $blog_desc = $db_handle->checkValue($_POST['blog_desc']);
+    $blog_cat = $db_handle->checkValue($_POST['blog_cat']);
     $image = '';
     $inserted_at = date("Y-m-d H:i:s");
     if (!empty($_FILES['blog_file']['name'])) {
@@ -66,7 +67,7 @@ if (isset($_POST['add_blog'])) {
         $image = "assets/blog/" . $file_name;
     }
 
-    $insert_blog = $db_handle->insertQuery("INSERT INTO `blog`(`category_id`, `title`, `description`, `image`, `inserted_at`) VALUES ('0','$blog_title','$blog_desc','$image','$inserted_at')");
+    $insert_blog = $db_handle->insertQuery("INSERT INTO `blog`(`category_id`, `title`, `description`, `image`, `inserted_at`) VALUES ('$blog_cat','$blog_title','$blog_desc','$image','$inserted_at')");
     if ($insert_blog) {
         echo "<script>
 document.cookie = 'alert = 3;';

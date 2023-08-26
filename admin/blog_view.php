@@ -95,6 +95,26 @@ window.location.href = 'Login';
                         </select>
                     </div>
                     <div class="form-group">
+                        <label>Blog Category</label>
+                        <select class="form-control default-select form-control-lg" tabindex="-98" name="blog_cat">
+                            <?php
+                            $fetch_cat_name = $db_handle->runQuery("select * from category where id = " . $fetch_blog_data[0]['category_id'] ." ");
+                            if($fetch_cat_name){
+                                ?>
+                                <option value="<?php echo $fetch_cat_name[0]['id'];?>"><?php echo $fetch_cat_name[0]['category_name_cn'];?></option>
+                                <?php
+                            }
+                            $fetch_cat = $db_handle->runQuery("select * from category order by id desc");
+                            $fetch_cat_no = $db_handle->numRows("select * from category order by id desc");
+                            for ($i=0; $i < $fetch_cat_no; $i++){
+                                ?>
+                                <option value="<?php echo $fetch_cat[0]['id'];?>"><?php echo $fetch_cat[0]['category_name_cn'];?></option>
+                                <?php
+                            }
+                            ?>
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <div class="row">
                             <div class="col-6">
                                 <label>Blog Image</label>
@@ -128,6 +148,7 @@ window.location.href = 'Login';
                             <tr>
                                 <th>Sl No.</th>
                                 <th>Blog Title</th>
+                                <th>Blog Category</th>
                                 <th>Blog Description</th>
                                 <th>Blog Status</th>
                                 <th>Blog Image</th>
@@ -143,6 +164,10 @@ window.location.href = 'Login';
                                 <tr>
                                     <td><?php echo $i + 1; ?></td>
                                     <td><?php echo $fetch_blog[$i]['title']; ?></td>
+                                    <td><?php
+                                        $fetch_cat_name = $db_handle->runQuery("select * from category where id = " . $fetch_blog[$i]['category_id'] ." ");
+                                        echo $fetch_cat_name[0]['category_name_cn'];
+                                        ?></td>
                                     <td><?php echo $fetch_blog[$i]['description']; ?></td>
                                     <td><?php if ($fetch_blog[$i]['status'] == '1') {
                                             echo 'Active';
@@ -150,7 +175,7 @@ window.location.href = 'Login';
                                     <td><a href="<?php echo $fetch_blog[$i]['image']; ?>" target="_blank">Image</a></td>
                                     <td>
                                         <div class="d-flex">
-                                            <a href="Blog-View?id=<?php echo $fetch_blog[$i]['id']; ?>"
+                                            <a href="Blog-View?id=<?php echo $fetch_blog[$i]['id'];?>"
                                                class="btn btn-primary shadow btn-xs sharp mr-1"><i
                                                         class="fa fa-pencil"></i></a>
                                             <a onclick="blogDelete(<?php echo $fetch_blog[$i]['id']; ?>)"
