@@ -76,6 +76,7 @@
     text-align: center;
     border: 2px solid white;
 }
+
 .banerpostbb {
     width: 40%;
     border-radius: 30px;
@@ -571,7 +572,7 @@ td div {
     }
 
     .carousel-caption {
-        bottom: 25%;
+        bottom: 10%;
     }
 
     .head1 {
@@ -648,4 +649,8 @@ td div {
     font-size: 20px;
     color:#ffffff;
     transition: transform 0.5s;
+}
+
+.bannerimg {
+    width: 44%;
 }

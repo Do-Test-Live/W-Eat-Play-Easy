@@ -50,10 +50,10 @@
 </section>
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
-     style="margin-top: -95px;margin-bottom: 30px;">
+     style="margin-top: -95px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/img/homepage.jpg" class="w-100" alt="..." id="header-image-pc">
+            <img src="assets/img/homepage.png" class="w-100" alt="..." id="header-image-pc">
             <img src="assets/img/mobile-banner.png" class="w-100" alt="..." id="header-image-mobile">
             <div class="carousel-caption">
                 <div class="row">
@@ -61,6 +61,9 @@
                         <h1 class="head2">CHILL遊日本</h1>
                         <div class="banerpostb mt-2 mt-lg-5">
                             <button type="button" class="btn btn-lg ls-btn">閱讀更多</button>
+                        </div>
+                        <div class="bannerimg mt-5">
+                            <img src="assets/img/banner-text.png" class="img-fluid" alt=""/>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12" id="header-section">
@@ -357,7 +360,7 @@
             <div class="row">
                 <div class="col-lg-5 col-12 picsec">
                     <a href="https://www.youtube.com/watch?v=8bkRtoQOVOg" target="_blank">
-                        <img src="assets/img/18.png" class="img-fluid">
+                        <img src="assets/img/18.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-lg-7 col-12 picsec">
@@ -368,17 +371,17 @@
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/reel/Ctt7WYKJ42b/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
                                            target="_blank">
-                                            <img src="assets/img/img11.jpg" class="img-fluid">
+                                            <img src="assets/img/img11.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/reel/Ct_01l4J7ww/" target="_blank">
-                                            <img src="assets/img/img22.jpg" class="img-fluid">
+                                            <img src="assets/img/img22.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CuegRb2JDaD/" target="_blank">
-                                            <img src="assets/img/img33.jpg" class="img-fluid">
+                                            <img src="assets/img/img33.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
 
@@ -389,18 +392,18 @@
                                 <div class="row">
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CuhBx0vpCeA/" target="_blank">
-                                            <img src="assets/img/img44.jpg" class="img-fluid">
+                                            <img src="assets/img/img44.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/reel/CurQoumA6cd/" target="_blank">
-                                            <img src="assets/img/img55.jpg" class="img-fluid">
+                                            <img src="assets/img/img55.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/reel/Ctt7WYKJ42b/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
                                            target="_blank">
-                                            <img src="assets/img/img11.jpg" class="img-fluid">
+                                            <img src="assets/img/img11.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
 
@@ -424,8 +427,6 @@
         </div>
 
     </div>
-    </div>
-    </div>
 </section>
 
 
@@ -437,11 +438,11 @@
             <a href="https://www.instagram/com/playeateay" target="_blank"><font color="#007cc4"><i
                             class="fab fa-instagram"></i></font></a>
             <a href="https://www.youtube.com/channel/UCAs4cR685Txuk3zSvhMsnEA" target="_blank"><font color="#007cc4"><i
-                            class="fab fa-youtube"></i></font></a></font>
+                            class="fab fa-youtube"></i></font></a>
         </div>
         <div class="row text-center mt-3">
             <div class="col-md-12 pb-md-0 pb-3">
-                <h6 class="footercontent">Copyright © 2023 Play Eat Easy. All rights reserved.</h6>
+                <h6 class="footercontent">Copyright © 2023 Play Eat Easy. All rights reserved. Powered by <a href="https://ngt.hk/" class="text-decoration-none text-white">NGT-Tech</a>.</h6>
             </div>
         </div>
 
@@ -454,7 +455,7 @@
 <script src="assets/js/main.js"></script>
 
 <script>
-    var clickableImages = document.querySelectorAll(".clickable-image");
+    let clickableImages = document.querySelectorAll(".clickable-image");
 
     clickableImages.forEach(function (image) {
         image.addEventListener("click", function () {
@@ -464,10 +465,10 @@
 
     function changeImageSrc(clickedImage) {
         // Get the src of the clicked image
-        var src = clickedImage.src;
+        let src = clickedImage.src;
 
         // Find the target image by class
-        var targetImage = document.querySelector(".target-image");
+        let targetImage = document.querySelector(".target-image");
 
         // Set the src of the target image to the src of the clicked image
         targetImage.src = src;
