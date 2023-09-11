@@ -6,7 +6,7 @@
     <title>Play Eat Easy</title>
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/vendor/FontAwesome/css/all.min.css"/>
-    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="assets/css/chill_style.css" rel="stylesheet"/>
     <style>
         .pazel {
             padding-top: 30px;
@@ -61,17 +61,14 @@
      style="margin-top: -95px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="assets/img/homepage.png" class="w-100" alt="..." id="header-image-pc">
-            <img src="assets/img/mobile-banner.png" class="w-100" alt="..." id="header-image-mobile">
+            <img src="assets/img/chill/BANNER.png" class="w-100" alt="..." id="header-image-pc">
+            <img src="assets/img/chill/BANNER.png" class="w-100" alt="..." id="header-image-mobile">
             <div class="carousel-caption">
                 <div class="row">
                     <div class="col-lg-12 col-12">
                         <h1 class="head2">CHILL遊日本</h1>
                         <div class="banerpostb mt-2 mt-lg-5">
                             <button type="button" class="btn btn-lg ls-btn">閱讀更多</button>
-                        </div>
-                        <div class="bannerimg mt-5">
-                            <img src="assets/img/banner-text.png" class="img-fluid" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -81,13 +78,15 @@
     </div>
 </div>
 
+
+
 <section class="mdle">
     <div class="container">
+        <div class="mt-3 mb-4">
+            <h2 class="ls-title">編輯重點推介</h2>
+        </div>
         <div class="row">
-            <div class="mt-3 text-center">
-                <h2 class="ls-title">編輯重點推介</h2>
-            </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-5">
                 <p class="paragrap">
                     日本最高戶外展望台！澀谷新地標360度飽覽東京最美夜景
                 </p>
@@ -100,20 +99,24 @@
                        target="_blank" class="btn btn-lg ls-btn banerpostbb">閱讀更多</a>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-6 head9 p-3">
-                <img src="assets/img/7.png" class="target-image" alt="..." style="width: 100%">
-                <div class="row mt-3">
+            <div class="col-lg-7 col-md-6 head9 p-3">
+                <div style="border: 5px solid #fff; border-radius: 26px; background: #fff">
+                    <div class="img-border">
+                        <img src="assets/img/chill/SEC-2A.png" class="target-image" alt="..." style="width: 100%">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: -4rem; margin-left: 2rem; margin-right: 2rem;">
                     <div class="col-4">
-                        <img src="assets/img/7.png" class="img-fluid clickable-image" alt=""
-                             style="cursor: pointer;">
+                        <img src="assets/img/chill/SEC-2A.png" class="img-fluid clickable-image" alt=""
+                             style="cursor: pointer;border: 5px solid #ff941a;border-radius: 20px;">
                     </div>
                     <div class="col-4">
-                        <img src="assets/img/10.png" class="img-fluid clickable-image" alt=""
-                             style="cursor: pointer;">
+                        <img src="assets/img/chill/SEC-2B.png" class="img-fluid clickable-image" alt=""
+                             style="cursor: pointer;border: 5px solid #ff941a;border-radius: 20px;">
                     </div>
                     <div class="col-4">
-                        <img src="assets/img/11.png" class="img-fluid clickable-image" alt=""
-                             style="cursor: pointer;">
+                        <img src="assets/img/chill/SEC-2C.png" class="img-fluid clickable-image" alt=""
+                             style="cursor: pointer;border: 5px solid #ff941a;border-radius: 20px;">
                     </div>
                 </div>
             </div>
