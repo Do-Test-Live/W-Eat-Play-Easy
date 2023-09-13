@@ -73,7 +73,7 @@
 .banerpostb {
     width: 20%;
     border-radius: 30px;
-    background-color: #ed6942;
+    background-image: linear-gradient(to right, #FF941A , #F47020);
     text-align: center;
     border: 2px solid white;
 }
@@ -81,7 +81,7 @@
 .banerpostbb {
     width: 40%;
     border-radius: 30px;
-    background-color: #ed6942;
+    background-image: linear-gradient(to right, #FF941A , #F47020);
     text-align: center;
     border: 2px solid #ed6942;
 }
@@ -184,6 +184,10 @@ tfoot tr {
 .pazel {
     padding-top: 50px;
     padding-bottom: 45px;
+    background: url("../img/chill/videobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .video{
     background-image: url("../img/14.png");
@@ -197,7 +201,7 @@ tfoot tr {
 }
 
 .footer {
-    background-color: #ed6942;
+    background-color: #009d9c;
     padding-top: 26px;
     padding-bottom: 26px;
 }
@@ -207,7 +211,7 @@ div {
 }
 
 .nav-item {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -524,7 +528,6 @@ td div {
     }
 
     .pazel {
-        background-color: #e8e8e8;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -637,7 +640,6 @@ td div {
 }
 .Social-media a{
     display: flex;
-    background: #ed6942;
     height: 35px;
     width: 35px;
     margin: 0 5px;
@@ -657,4 +659,7 @@ td div {
 
 .bannerimg {
     width: 44%;
+}
+.secondsection{
+    background-color: #fff;
 }
