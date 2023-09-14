@@ -203,7 +203,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 text-start">
-                <h3 class="mt-3 head6" style="color: #ffffff;font-size: 50px;font-weight: 700;">編輯葡國美食之旅</h3>
+                <h3 class="mt-3 head6" style="color: #ffffff;font-size: 40px;font-weight: 700;">編輯葡國美食之旅</h3>
             </div>
         </div>
     </div>
