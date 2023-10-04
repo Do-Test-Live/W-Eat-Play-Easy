@@ -60,9 +60,6 @@
                 <div class="row">
                     <div class="col-lg-12 col-12">
                         <h1 class="head2">CHILL遊澳門</h1>
-                        <div class="banerpostb mt-2 mt-lg-5">
-                            <button type="button" class="btn btn-lg ls-btn">閱讀更多</button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -76,14 +73,16 @@
         <div class="mt-3 mb-4">
             <h2 class="ls-title">編輯重點推介</h2>
         </div>
-        <div class="row mb-4">
-            <div class="col-lg-6 col-12">
-                <img class="img-fluid" src="assets/img/chill/left-img.png">
+        <a href="https://www.macaotourism.gov.mo/zh-hant/events/calendar" target="_blank">
+            <div class="row mb-4">
+                <div class="col-lg-6 col-12">
+                    <img class="img-fluid" src="assets/img/chill/left-img.png">
+                </div>
+                <div class="col-lg-6 col-12 mt-lg-0 mt-5">
+                    <img class="img-fluid" src="assets/img/chill/right-img.png">
+                </div>
             </div>
-            <div class="col-lg-6 col-12 mt-lg-0 mt-5">
-                <img class="img-fluid" src="assets/img/chill/right-img.png">
-            </div>
-        </div>
+        </a>
     </div>
 </section>
 
