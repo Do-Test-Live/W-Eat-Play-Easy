@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Play Eat Easy</title>
+    <title>Play Eat Easy - Chill遊澳門</title>
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/vendor/FontAwesome/css/all.min.css"/>
     <link href="assets/css/chill_style.css" rel="stylesheet"/>
@@ -29,7 +29,7 @@
                            href="https://playeateasy.com/category/%e5%84%aa%e6%83%a0%e6%b8%9b%e5%83%b9/">優惠減價</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Chill遊日本</a>
+                        <a class="nav-link" href="#">Chill遊澳門</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://playeateasy.com/category/%e7%8e%a9%e6%a8%82/">玩樂</a>
@@ -94,14 +94,13 @@
         <div class="row">
             <div class="col-md-6 col-lg-5">
                 <p class="paragrap">
-                    日本最高戶外展望台！澀谷新地標360度飽覽東京最美夜景
+                    藝文薈澳2023｜澳門10大特色展覧！巨型彩色米奇＋7米高BE@RBRICK/Mr Doodle塗鴉藝術/沉浸式欣賞達文西＋凡爾賽宮＋蕭勤的藝術～小編推介打卡＋藝術2大路線
                 </p>
                 <p class="head8">
-                    疫情期間幾年無去日本，澀谷新地標「SHIBUYA
-                    SKY」已經開幕！離地面230米、2500平方米的開放式展望空間，成為日本最高戶外展望台，可無障礙360度飽覽東京最美夜景，地標包括澀谷十字路口、東京晴空塔、東京鐵塔、富士山等都可眺望到！其中外面的扶手電梯都係打卡點之一，一望無際東京夜景超震撼！宜家仲有門票優惠成人$109起！
+                    每次遊澳門都淨係識去著名景點、食葡撻？澳門特區政府舉行的「藝文薈澳：澳門國際藝術雙年展2023」正式啟動，由7月至10月29日期間，以「命運的統計學」為主題，探索科學與宗教之間的關聯。透過「八大板塊」，包括主場展、公共藝術展、城市館、特展、本地藝術家邀請展、本地策展計劃、高等院校藝術展和平行展，近30多個不同主題展覽遍佈澳門各區，由室內到室外，到處都能夠欣賞到來自20多個國家地區、200多名藝術家的精彩作品
                 </p>
                 <div class="mt-2 mt-lg-5 buutton">
-                    <a href="https://playeateasy.com/%e6%97%a5%e6%9c%ac%e6%9c%80%e9%ab%98%e6%88%b6%e5%a4%96%e5%b1%95%e6%9c%9b%e5%8f%b0%ef%bc%81%e6%be%80%e8%b0%b7%e6%96%b0%e5%9c%b0%e6%a8%99360%e5%ba%a6%e9%a3%bd%e8%a6%bd%e6%9d%b1%e4%ba%ac%e6%9c%80/"
+                    <a href="https://playeateasy.com/%e8%97%9d%e6%96%87%e8%96%88%e6%be%b32023%ef%bd%9c%e6%be%b3%e9%96%8010%e5%a4%a7%e7%89%b9%e8%89%b2%e5%b1%95%e8%a6%a7%ef%bc%81%e5%b7%a8%e5%9e%8b%e5%bd%a9%e8%89%b2%e7%b1%b3%e5%a5%87%ef%bc%8b7%e7%b1%b3/"
                        target="_blank" class="btn btn-lg ls-btn banerpostbb">閱讀更多</a>
                 </div>
             </div>
@@ -632,13 +631,13 @@
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CxfW3iIrRhN/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video02.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video03.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CwUvMfzOe0s/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video03.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video04.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -648,19 +647,19 @@
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/Cwcn8KRJwqW/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video04.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video06.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CxFEmONo9yM/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video06.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video08.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CxIe1GEtliP/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video08.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video09.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -670,19 +669,19 @@
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CwzlXAGOp28/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video09.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video011.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/Cv3gJWDh5lX/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video11.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video13.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                     <div class="col-4">
                                         <a href="https://www.instagram.com/p/CsJIGl8IZX2/"
                                            target="_blank">
-                                            <img src="assets/img/chill/images/video13.png" class="img-fluid" alt="">
+                                            <img src="assets/img/chill/images/video14.png" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                 </div>
