@@ -7,6 +7,12 @@
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/vendor/FontAwesome/css/all.min.css"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+    <style>
+        .head2{
+            font-family: Round,'sans-serif';
+            -webkit-text-stroke-width: 1px;
+        }
+    </style>
 </head>
 <body>
 <section class="head">
@@ -58,15 +64,15 @@
             <div class="carousel-caption">
                 <div class="row">
                     <div class="col-lg-7 col-12">
-                        <h1 class="head2">CHILL遊日本</h1>
+                        <h1 class="head2">Chill 遊世界</h1>
                         <div class="banerpostb mt-2 mt-lg-5">
-                            <button type="button" class="btn btn-lg ls-btn">閱讀更多</button>
+                            <button type="button" class="btn btn-lg ls-btn" onclick="window.location.href= 'https://playeateasy.com/tag/%e6%97%a5%e6%9c%ac/'">閱讀更多</button>
                         </div>
                         <div class="bannerimg mt-5">
                             <img src="assets/img/banner-text.png" class="img-fluid" alt=""/>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-12" id="header-section">
+                    <div class="col-lg-5 col-12 pt-5" id="header-section">
                         <img src="assets/img/7.png" class="target-image" alt="..." style="width: 100%">
                         <div class="row mt-3">
                             <div class="col-4">
@@ -351,7 +357,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 text-start">
-                <h3 class="mt-3 head6" style="color:#571400;">編輯葡國美食之旅</h3>
+                <h3 class="mt-3 head6" style="color:#571400;">編輯美食之旅</h3>
             </div>
         </div>
     </div>

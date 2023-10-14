@@ -16,6 +16,11 @@
     src: url(../../assets/font/NotoSansCJKtc-Regular.otf);
 }
 
+@font-face {
+    font-family: 'Round';
+    src: url(../../assets/font/Front_Round.otf);
+}
+
 .top {
     background-color: #d63384;
 }
